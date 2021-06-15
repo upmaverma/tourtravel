@@ -1,0 +1,18 @@
+.aboutContainer {
+  padding: 10% 0 5% 0;
+}
+.aboutImage {
+  border: 2px solid red;
+}
+.aboutSection {
+  display: flex;
+  margin: 2% 0;
+  justify-content: space-evenly;
+}
+.aboutContent {
+  padding: 4%;
+  border: 2px solid yellow;
+}
+.banner {
+  border: 2px solid firebrick;
+}

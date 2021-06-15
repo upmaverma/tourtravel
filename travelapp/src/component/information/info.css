@@ -1,0 +1,119 @@
+.infoContainer {
+  padding-top: 10%;
+  background: rgba(49, 149, 242, 0.035);
+}
+.travelDetailBox {
+  display: flex;
+  justify-content: space-evenly;
+}
+.photoContainer {
+  width: 50%;
+  margin: 0 2%;
+}
+.travelDetailContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.travelInfoContainer {
+  padding: 5%;
+}
+
+.imageContainer img {
+  width: 10%;
+}
+.priceContainer {
+  font-size: 1.3em;
+  padding: 2% 4%;
+  width: 35%;
+  background-color: whitesmoke;
+  box-shadow: 0 0 10px 8px rgb(189, 189, 189);
+}
+.icons {
+  display: inline-block;
+  font-size: 1.5em;
+  width: 28%;
+  text-align: center;
+}
+.iconImage img {
+  width: 60%;
+}
+.photoContainer img {
+  width: 100%;
+}
+.iconsExplain {
+  text-transform: capitalize;
+  font-size: 0.5em;
+}
+
+button.slick-prev:before,
+button.slick-next:before {
+  color: black;
+}
+.react-tabs {
+  padding: 1%;
+  border-radius: 10px;
+}
+.react-tabs__tab--selected {
+  background: #2667de !important;
+  border-color: #aaa;
+  color: rgb(255, 255, 255) !important;
+  border-radius: 5px 5px 0 0;
+}
+
+.imageSlider {
+  border: 2px solid black;
+  height: 500px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .infoContainer {
+    padding-top: 13%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .travelDetailContainer {
+    display: block;
+  }
+  .photoContainer,
+  .priceContainer {
+    width: 100%;
+    margin: 0;
+  }
+  .infoBox {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .infoContainer {
+    padding-top: 15%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .infoContainer {
+    padding-top: 17%;
+  }
+  .packageName {
+    margin-top: 3%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .infoContainer {
+    padding-top: 20%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .infoContainer {
+    padding-top: 25%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .infoBox {
+    display: block;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .infoContainer {
+    padding-top: 27%;
+  }
+}

@@ -1,0 +1,53 @@
+.bookingContainer {
+  padding: 11% 0 6% 0;
+  background: rgba(49, 149, 242, 0.035);
+}
+.formContainer {
+  box-shadow: 0 0 10px 4px rgb(189, 189, 189);
+}
+.viewBookingContainer {
+  padding: 11% 0 6% 0;
+}
+.bookBtn {
+  width: 27%;
+}
+@media only screen and (max-width: 1024px) {
+  .bookingContainer {
+    padding-top: 15%;
+  }
+  .viewBookingContainer {
+    padding-top: 15%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bookingContainer {
+    padding-top: 19%;
+  }
+  .viewBookingContainer {
+    padding-top: 18%;
+  }
+  .table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .bookingContainer {
+    padding-top: 27%;
+  }
+  .viewBookingContainer {
+    padding-top: 24%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .viewBookingContainer {
+    padding-top: 28%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .bookingContainer {
+    padding-top: 30%;
+  }
+}

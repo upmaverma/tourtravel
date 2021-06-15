@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.navSection{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+}
+.logo{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    color: greenyellow;
+    font-style: italic;
+    font-variant: small-caps;
+}
+.logopic{
+    width: 70px;
+}
+.Navigation{
+    color: greenyellow ;
+    background-color: rgb(10 10 113 / 89%);
+}
+.navbar{
+    font-family: 'Roboto Slab', serif;
+    color: greenyellow ;
+    font-size: 1em;
+}
+.nav-link{
+    position: relative;
+    color: white !important;
+}
+a.nav-link::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    left: 1%;
+    bottom: 6%;
+    background: white;
+    transition: 300ms;
+}
+a.nav-link:hover::after{
+    width:100%
+}
+button.navbar-toggler.collapsed{
+    background: aliceblue;
+}
+
+@media only screen and (max-width:425px){
+    .logopic{
+        width: 50px;
+    }
+}

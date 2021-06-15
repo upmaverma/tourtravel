@@ -1,0 +1,65 @@
+.popularContent {
+  width: 100%;
+  position: relative;
+  padding: 1% 3%;
+  background: rgba(49, 149, 242, 0.035);
+}
+.placeArea {
+  position: relative;
+  width: 30%;
+  margin: 2% 1%;
+  display: inline-block;
+  overflow: hidden;
+  box-shadow: 0 0 10px 8px gray;
+}
+.place {
+  width: 100%;
+  height: 300px;
+}
+.pouplarContentHeading {
+  text-transform: capitalize;
+}
+.content {
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-transform: capitalize;
+}
+.travelName {
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  padding: 4% 2%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+.placeArea:hover img {
+  transform: scale(1.2);
+  transition: 1s;
+}
+.content:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+.placeList {
+  border: 2px solid yellow;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .placeArea {
+    width: 100%;
+  }
+  .pouplarContentHeading {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .content {
+    font-size: 0.8em;
+  }
+}
